@@ -1,0 +1,3 @@
+User-agent:*
+Disallow:
+Sitemap: https://mycrm.gaspach.io/sitemap.xml

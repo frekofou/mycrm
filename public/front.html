@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+ 
+<!-- wwFront:start -->
+<html class="ww-app-theme-dark" lang="<%= htmlWebpackPlugin.options.lang %>">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=0" />
+        <base
+            href="<%= htmlWebpackPlugin.options.baseTag?.href %>"
+            target="<%= htmlWebpackPlugin.options.baseTag?.target %>"
+        />
+
+        <% if (htmlWebpackPlugin.options.title) { %>
+        <title><%= htmlWebpackPlugin.options.title %></title>
+        <% } %>
+
+        <link rel="icon" type="image/x-icon" href="favicon.ico?_wwcv=<%= htmlWebpackPlugin.options.cacheVersion %>" />
+
+        <link rel="manifest" href="manifest.json?_wwcv=72" />
+        <meta name="theme-color" content="#FFFFFF" />
+        <link rel="apple-touch-icon" sizes="48x48" href="public/images/48-Gaspach.io_-_G_Logo.png?_wwcv=72">
+<link rel="apple-touch-icon" sizes="72x72" href="public/images/72-Gaspach.io_-_G_Logo.png?_wwcv=72">
+<link rel="apple-touch-icon" sizes="96x96" href="public/images/96-Gaspach.io_-_G_Logo.png?_wwcv=72">
+<link rel="apple-touch-icon" sizes="128x128" href="public/images/128-Gaspach.io_-_G_Logo.png?_wwcv=72">
+<link rel="apple-touch-icon" sizes="144x144" href="public/images/144-Gaspach.io_-_G_Logo.png?_wwcv=72">
+<link rel="apple-touch-icon" sizes="152x152" href="public/images/152-Gaspach.io_-_G_Logo.png?_wwcv=72">
+<link rel="apple-touch-icon" sizes="192x192" href="public/images/192-Gaspach.io_-_G_Logo.png?_wwcv=72">
+<link rel="apple-touch-icon" sizes="256x256" href="public/images/256-Gaspach.io_-_G_Logo.png?_wwcv=72">
+<link rel="apple-touch-icon" sizes="384x384" href="public/images/384-Gaspach.io_-_G_Logo.png?_wwcv=72">
+<link rel="apple-touch-icon" sizes="512x512" href="public/images/512-Gaspach.io_-_G_Logo.png?_wwcv=72">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:wght@100;200;300;400;500;600;700&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<style>:root{ --ww-default-font-family: 'Plus Jakarta Sans', sans-serif }</style>
+        <style>
+:root {
+--fead80ff-4a88-4f17-b921-01d6e8901a41: #F7F7F7;
+--283951fb-a667-4494-9aed-1406e9ee9544: #0074BA;
+--086fb7aa-dd8e-4146-9804-422722be8987: #0074BA;
+--2f736138-d8e4-4520-b9cf-d48c4a7a9f09: #05D686C9;
+--9b2b7e0d-f615-414a-89ff-4048fc7a3404: #0074BA;
+--97d1b138-9b6a-4b77-9e1d-600a32cbc5e8: #0074BAE6;
+--711af285-ef47-41ff-a029-1889aa8447a0: #13DEB9;
+--aa97fe46-d2f0-4784-bcd9-0744b12bd5b7: #FFAE1F;
+--ced9ea4b-ec81-447b-a63f-a1bdce591b1d: #FA8A6B;
+--17d6928e-f4e0-44f8-9e63-5711dc7e3af6: #52525B;
+--10ebe4b9-7689-4528-8ffa-d5c77fa14a14: #333333;
+--298ae388-c02b-4885-9d1b-775ec1bc4672: #0074BA;
+--b8b53737-f41f-4285-97eb-8a300555e866: #0074BAB3;
+--520892e4-9729-427d-9f6e-ec0cd9493813: #9D9BFF;
+--33d15a82-a63c-42d0-af16-44761546b299: #FA8A6B;
+--a4677623-3585-4d62-90ee-10797a12bad0: #C1C1C1;
+--46ad01c6-627d-4be6-a172-0bca15c8db42: #E8F7FF;
+--aee398cd-754e-4c09-b8ba-aa4a3904b024: 600 1.12rem/32px var(--ww-default-font-family, sans-serif);
+--08028f07-ebdc-478a-9609-5022f9361611: #1D4ED8CC;
+--1d8160d3-56ce-45ec-8db6-1fb7221d131c: #E5EAEF;
+--45735eb6-4c6c-44a7-8c86-151b9763b833: #ECF2FF;
+--c32eb195-f443-460a-993e-d4ee4fe37e06: #FEF5E5;
+--399338ec-9a63-4963-b0ad-eb5a943ad431: #E8F7FF;
+--924685cc-68fd-4169-b4ad-d8e34d60c168: #FDEDE8;
+--f8435412-3254-47dc-aee5-fd18700ef1c6: #E6FFFA;
+--b15ac91d-7e4a-4ffc-8a6a-4c338e114899: italic 300 0.875rem/normal 'Inter', sans-serif;
+--26a6533f-6234-41ba-9081-a65478ed42d7: #FFFFFF;
+--df01305b-0121-4372-88fb-7ae5e0b0363d: #0074BA1A;
+--8e3a5095-1b4e-4835-9009-ae1190cb062d: 400 1rem/1.5rem var(--ww-default-font-family, sans-serif);}
+.ww-app-theme-dark {
+}
+</style>
+        <link href="https://cdn.weweb.app/public/libs/weweb-icons/css/weweb-icons.min.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="https://cdn.weweb.app/public/libs/font-awesome/5.6.3/css/fontawesome.min.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="https://cdn.weweb.app/public/libs/font-awesome/5.6.3/css/fontawesome.min.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="https://cdn.weweb.app/public/libs/font-awesome/5.6.3/css/fontawesome.min.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="https://cdn.weweb.io/public/icons/heroicons/1.0.0/style.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <% for (let link of htmlWebpackPlugin.options?.alternateLinks || []) { %>
+        <link rel="<%= link.rel %>" hreflang="<%= link.hreflang %>" href="<%= link.href %>" />
+        <% } %> <% if (htmlWebpackPlugin.options.structuredData) { %>
+        <script type="application/ld+json">
+            <%= htmlWebpackPlugin.options.structuredData %>
+        </script>
+        <% } %> <%= htmlWebpackPlugin.options.scripts?.head %>
+    </head>
+    <body style="margin: 0; font-family: var(--ww-default-font-family, unset)">
+        <noscript>
+            <strong>
+                We're sorry but this website doesn't work properly without JavaScript enabled. Please enable it to
+                continue.
+            </strong>
+        </noscript>
+        <div id="app"></div>
+        <!-- built files will be auto injected -->
+        <%= htmlWebpackPlugin.options.scripts?.body %>
+    </body>
+</html>
+<!-- wwFront:end -->

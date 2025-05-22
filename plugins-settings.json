@@ -1,0 +1,106 @@
+{
+    "9c40819b-4a8f-468f-9ba5-4b9699f3361f": {
+        "id": "d8d85466-0eb9-4666-91ed-f89910239b7a",
+        "name": "Charts",
+        "designId": "f2d13c65-d627-4543-8e61-30aa8a41902c",
+        "pluginId": "9c40819b-4a8f-468f-9ba5-4b9699f3361f",
+        "publicData": {}
+    },
+    "832d6f7a-42c3-43f1-a3ce-9a678272f811": {
+        "id": "f8ad6300-7c6a-4572-9239-210b1be5c589",
+        "name": "Date",
+        "designId": "f2d13c65-d627-4543-8e61-30aa8a41902c",
+        "pluginId": "832d6f7a-42c3-43f1-a3ce-9a678272f811",
+        "publicData": {
+            "favoriteFormat": "dd/mm/y"
+        }
+    },
+    "ee24f5ac-e15e-4ddd-baa4-0b4baedf90c9": {
+        "id": "078aff38-7419-4740-af91-718437123cf6",
+        "name": "CSV",
+        "designId": "f2d13c65-d627-4543-8e61-30aa8a41902c",
+        "pluginId": "ee24f5ac-e15e-4ddd-baa4-0b4baedf90c9",
+        "publicData": {}
+    },
+    "00d22f72-1a03-44f8-ad68-c593dc80b543": {
+        "id": "71d87d90-ef65-419c-8263-9c163ee17b7b",
+        "name": "Stripe",
+        "designId": "f2d13c65-d627-4543-8e61-30aa8a41902c",
+        "pluginId": "00d22f72-1a03-44f8-ad68-c593dc80b543",
+        "publicData": {
+            "publicApiKey": "pk_test_51KxWZZGJvN8qyQtIe0v0afdOJbbsIOCD5ZhWSPNvGY5pIN2wfVxPWwoSTfRWs1T7SefyuUelbrtEuBekNmvQxiGR00171zkBHH",
+            "publicTestApiKey": "pk_test_51KxWZZGJvN8qyQtIe0v0afdOJbbsIOCD5ZhWSPNvGY5pIN2wfVxPWwoSTfRWs1T7SefyuUelbrtEuBekNmvQxiGR00171zkBHH"
+        }
+    },
+    "2bd1c688-31c5-443e-ae25-59aa5b6431fb": {
+        "id": "caa6e934-784d-4ae5-ac1e-9254f35ff731",
+        "name": "REST API",
+        "designId": "f2d13c65-d627-4543-8e61-30aa8a41902c",
+        "pluginId": "2bd1c688-31c5-443e-ae25-59aa5b6431fb",
+        "publicData": {}
+    },
+    "cd33cf33-e29f-4e8c-ac26-b997fe507ce7": {
+        "id": "67bed214-37a9-42a0-a54d-5f1c586f7eee",
+        "name": "Xano",
+        "designId": "f2d13c65-d627-4543-8e61-30aa8a41902c",
+        "pluginId": "cd33cf33-e29f-4e8c-ac26-b997fe507ce7",
+        "publicData": {
+            "domain": "xwav-8ygi-n7p1.p7.xano.io",
+            "xBranchProd": "v1",
+            "customDomain": "api.gaspach.io",
+            "globalHeaders": [
+                {
+                    "key": "app-name",
+                    "value": "mycrm"
+                }
+            ],
+            "xBranchEditor": "v1",
+            "xBranchStaging": "v1",
+            "xDataSourceProd": "live",
+            "xDataSourceEditor": "test",
+            "xDataSourceStaging": "live"
+        }
+    },
+    "f5856798-485d-47be-b433-d43d771c64e1": {
+        "id": "c876a363-769a-4846-9722-c80c0a5ed9f7",
+        "name": "Xano Auth",
+        "designId": "f2d13c65-d627-4543-8e61-30aa8a41902c",
+        "pluginId": "f5856798-485d-47be-b433-d43d771c64e1",
+        "publicData": {
+            "roles": [
+                {
+                    "id": "9e865cfc-2b0d-4408-97ef-1177920a085c",
+                    "name": "super_admin",
+                    "createdAt": "2024-05-16T11:32:23.520Z"
+                }
+            ],
+            "domain": "xwav-8ygi-n7p1.p7.xano.io",
+            "roleKey": "role",
+            "roleType": "string",
+            "xBranchProd": "v1",
+            "customDomain": "api.gaspach.io",
+            "getMeEndpoint": "https://xwav-8ygi-n7p1.p7.xano.io/api:mycrm/auth/me",
+            "globalHeaders": [
+                {
+                    "key": "app-name",
+                    "value": "mycrm"
+                }
+            ],
+            "loginEndpoint": "https://xwav-8ygi-n7p1.p7.xano.io/api:mycrm/auth/login",
+            "xBranchEditor": "v1",
+            "signupEndpoint": "https://xwav-8ygi-n7p1.p7.xano.io/api:mycrm/auth/signup",
+            "xBranchStaging": "v1",
+            "socialProviders": {
+                "google-oauth": {
+                    "id": 67,
+                    "api": "https://xwav-8ygi-n7p1.p7.xano.io/api:mycrm-auth-google",
+                    "name": "google-oauth"
+                }
+            },
+            "xDataSourceProd": "live",
+            "xDataSourceEditor": "test",
+            "xDataSourceStaging": "live",
+            "afterNotSignInPageId": "52b1d0cb-4398-4a98-8375-18e50f080826"
+        }
+    }
+}
